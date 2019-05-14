@@ -1,0 +1,36 @@
+{
+  "name": "project-4",
+  "version": "1.0.0",
+  "description": "paramdic app help people ",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server",
+    "frontend": "cd paramedic && npm start",
+    "start": "node server",
+    "dev": "concurrently \" npm test\" \"npm run frontend\""
+  },
+  "author": "Sarah Abuhaimed",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.6",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.6",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "reactstrap": "^8.0.0"
+  }
+}
