@@ -1,0 +1,93 @@
+
+footer{
+height: 150px;
+  background-color: #158c9e;
+  color: white;
+}
+.App {
+  text-align: center;
+  color: white;
+}
+.in{
+  margin: 10px;
+  width: '18rem';
+  border: 2px solid #158c9e;
+  border-radius: 12px;
+}
+.out{
+  margin: 10px;
+  width: '18rem';
+  border: 2px solid #913003;
+  border-radius: 12px;
+}
+.alertIn{
+  position: absolute;
+  z-index: 15;
+  top: 35%;
+  left: 37%;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+.Applink{
+  color: white;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.App-link {
+  color: white;
+  font-size: 20px;
+}
+header{
+  background-color:#158c9e;
+ height: 55px;
+}
+.back{
+  background-image: url("https://www.an7a.com/wp-content/uploads/2018/07/5d1e1185-661e-4697-9f83-b2522d17e272.jpg");
+  height:800px;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.backColor{
+  background-color: rgba(168, 222, 240, 0.336);
+  height: 400px;
+  width: 700px;
+ 
+}
+.cent{
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+ 
+}
+.fontW{
+  font-weight: bold;
+  text-shadow: 1px 2px gray;
+}
+.space{
+  margin-top: 30px;
+}
+.spacelink{
+  margin-left: 10px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
