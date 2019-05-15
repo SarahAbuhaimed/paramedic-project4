@@ -42,13 +42,11 @@ router.post('/', (req, res)=>{
   //case Edit
   router.put('/:indexOfCasesArray/edit', (req, res) => {
     console.log(req.params.indexOfCasesArray);
-    
-    Case.findByIdAndUpdate(req.params.indexOfCasesArray)
+    Case.findByIdAndUpdate(req.params.indexOfCasesArray,{ new: false } )
     .then((cas)=> {
-    console.log("bl");
-
         res.json({cas})
       }).catch()
   })
+
 
 module.exports = router
