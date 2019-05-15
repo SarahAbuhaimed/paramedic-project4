@@ -9,6 +9,7 @@ const jwt = require('jsonwebtoken')
 const passport = require('passport')
 const mongooseConnect = require('./config/mongodb')
 
+
 app.use(cors())
 app.use(express.urlencoded({extended:true}));
 app.use(express.json())
