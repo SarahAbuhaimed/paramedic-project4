@@ -36,7 +36,6 @@ location = fcase[0].location[0]
        <h6>Age range:</h6> 
  <p>{agerange}</p>
  <h6>Location:</h6> 
-<p>{location}</p>
 <ReactMap loc={location}/>
 </CardBody>
 </Card>
