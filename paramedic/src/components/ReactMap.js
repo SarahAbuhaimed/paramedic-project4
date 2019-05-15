@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { faMap} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import MapGL, {Marker, Popup,NavigationControl} from 'react-map-gl';
+import MapGL, { Popup,NavigationControl} from 'react-map-gl';
 const TOKEN = 'pk.eyJ1Ijoic2FyYWhhYnUiLCJhIjoiY2p2cDMzbTF2MjRucDQ5bDZpNTI3MmYxMSJ9.mmDT7xUEAoLivnu8mY4YsA';
 const navStyle = {
   position: 'absolute',
@@ -11,7 +9,6 @@ const navStyle = {
 };
 
 export default class ReactMap extends Component {
-
 constructor(props) {
   super(props);
   this.state = {
